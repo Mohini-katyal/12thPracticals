@@ -1,7 +1,7 @@
 #first part
 def CreateFile():
     import pickle
-    f=open('books.txt','wb')
+    f=open('book.dat','wb')
     d={}
     ans='y'
     while ans=='y':
